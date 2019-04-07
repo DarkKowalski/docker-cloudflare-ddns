@@ -7,7 +7,7 @@ docker run -d \
         -e ZONE_IDENTIFIER="1919" \
         -e RECORD_IDENTIFIER="810" \
         -e NAME="site.example.com" \
-darkkowalski/docker-cloudflare-ddns
+        -it darkkowalski/docker-cloudflare-ddns
 ```
 ## Note
 If DNS record doesn't exist, create it first to get `RECORD_IDENTIFIER`
