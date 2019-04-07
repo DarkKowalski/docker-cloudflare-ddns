@@ -19,4 +19,4 @@ docker run -d \
 ## Note
 If DNS record doesn't exist, create it first to get `RECORD_IDENTIFIER`
 
-Sample script: [creat-new-record.sh](https://github.com/DarkKowalski/docker-cloudflare-ddns/blob/master/create-new-record.sh)
+Sample script: [create-new-record.sh](https://github.com/DarkKowalski/docker-cloudflare-ddns/blob/master/create-new-record.sh)
